@@ -37,7 +37,7 @@ through to the libvcx shared library.
   # s.resource_bundles = {
   #   'vcx' => ['**/vcx/Assets/*.png']
   # }
-  s.vendored_frameworks="vcxFramework/vcx.framework"
+  s.vendored_frameworks="firstPod/firstPod.framework"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
