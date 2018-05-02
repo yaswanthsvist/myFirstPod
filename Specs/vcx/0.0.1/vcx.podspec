@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'firstPod'
-  s.version          = '0.0.2'
+  s.name             = 'vcx'
+  s.version          = '0.0.1'
   s.summary          = 'The Objective-C wrapper around the libvcx shared library.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ through to the libvcx shared library.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yaswanthsvist' => 'yaswanthsvist@gmail.com' }
-  s.source           = { :http => 'http://648b0588.ngrok.io/vcxFramework.zip'}
+  s.source           = { :http => 'http://648b0588.ngrok.io/vcx.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,7 +37,7 @@ through to the libvcx shared library.
   # s.resource_bundles = {
   #   'vcx' => ['**/vcx/Assets/*.png']
   # }
-  s.vendored_frameworks="vcxFramework/vcx.framework"
+  s.ios.vendored_frameworks="vcx/vcx.framework"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
