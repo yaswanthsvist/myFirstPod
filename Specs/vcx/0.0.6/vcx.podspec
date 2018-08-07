@@ -27,7 +27,7 @@ through to the libvcx shared library.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yaswanthsvist' => 'yaswanthsvist@gmail.com' }
-  s.source           = { :http => 'http://localhost:8080/vcx.framework_20180803.1624_universal.zip'}
+  s.source           = { :http => 'http://localhost:8080/vcx.framework_20180803.1607_universal.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
